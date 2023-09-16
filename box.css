@@ -1,0 +1,52 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: slide 2s infinite;
+    animation-delay: 2s;
+}
+/* @keyframes slide
+{
+    from
+    {
+      transform: translateX(0); 
+    }
+    to
+    {
+        transform:translateX(200px);
+    }
+} */
+.spin
+{
+    width: 100px;
+    height: 100px;
+    /* background-color: black; */
+    animation: infinite spin 3s, colorChange 3s infinite;
+    animation-delay: 2s;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes colorChange
+{
+     100%
+    {
+        border-top-color: blue;
+    }
+    25%
+    {
+        border-color: green;
+
+    }
+    50%
+    {
+        border-color: red;
+    }
+}

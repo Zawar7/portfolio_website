@@ -1,0 +1,148 @@
+body
+{
+    margin: 0px;
+    padding: 0px; 
+}
+.logo h1 a
+{
+   color: white;
+   text-decoration: none;
+   margin-left: 10px;
+
+}
+.logo h1 a span{
+    color: aqua;
+}
+.nav
+{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 10PX;
+    flex-wrap: wrap;
+}
+.list
+{
+    display: flex;
+    margin-left: 10px;
+    
+}
+.list li{
+    list-style-type: none;
+}
+.list li a
+{
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 10px;
+    position: relative;
+    top: 10px;  
+    font-size: large;
+}
+.list li a:hover
+{
+    text-decoration: underline gray;
+    color: aqua;
+}
+.cont
+{
+    background-color: white;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    width: 1250px;
+
+}
+.head
+{
+    position: relative;
+    left: 780px;
+    bottom: 320px;
+    background-color: white;
+    width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.paragraph
+{
+    position: relative;
+    left: 520px;
+    bottom: 320px;
+    right: 100px;
+    background-color: white;
+    width: 710px;
+    height: 125px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.p{
+    position: relative;
+    left: 520px;
+    bottom: 320px;
+    right: 100px;
+    width: 700px;
+    background-color: white ;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img
+{
+    position: relative;
+    top: 100px;
+    left: 3px;
+    flex-wrap: wrap;
+
+}
+.img img
+{
+    width: 500px;
+    height: 330px;
+    position: relative;
+    bottom: 40px;
+    opacity: 2;
+}
+.button button {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    background-color: #77e622;
+    border: 1px solid #6cf312;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #43d300;
+    transition: all .1s;
+    padding-bottom: 10px;
+    margin: 10px;
+    height: auto;
+    width: 70px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    /* box-shadow:  0.5rem 0.5rem white, -0.5rem -0.5rem white; */
+   }
+   
+   .button:active {
+    box-shadow: 2px 2px 2px 2px #46d300;
+    position: relative;
+    top: 2px;
+   }
+   
+@media  only screen and (max-width:600px) { 
+                .cont, .paragraph, .p {
+                    left:200px;
+                    right:0;
+                         
+                }
+                .img img{
+                    width: 100px;
+                    height: auto;
+                    bottom: 0;
+                    margin-bottom: 200px;
+                } 
+}
+    
